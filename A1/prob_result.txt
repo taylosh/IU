@@ -1,0 +1,2 @@
+Sen 1: <s> I beleive that a group tour is interesting . <\s>, Unigram Probability: 1.8047752663274207e-26, Bigram Probability: 1.786948111741849e-15, Bigram with Add-K Probability: 9.059260894273735e-21
+Sen 2: <s> I believe that a group tour is interesting . <\s>, Unigram Probability: 3.5989342075587976e-25, Bigram Probability: 5.18205288477295e-14, Bigram with Add-K Probability: 4.2696318130990574e-18
