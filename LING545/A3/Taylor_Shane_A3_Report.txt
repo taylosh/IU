@@ -1,0 +1,32 @@
+Accuracy: 87.55%
+F1 Score (weighted): 0.8788
+
+Most Common Tagging Errors (Gold->Predicted:Quantity):
+PROPN → NOUN: 158 times
+NOUN → PROPN: 158 times
+PROPN → X: 135 times
+PROPN → PRON: 110 times
+VERB → AUX: 105 times
+NOUN → VERB: 97 times
+NOUN → X: 80 times
+NOUN → ADJ: 79 times
+SCONJ → ADP: 78 times
+VERB → NOUN: 77 times
+
+Words Most Frequently Tagged Incorrectly:
+to: {('ADP', 'PART'): 35, ('SCONJ', 'PART'): 10, ('PART', 'ADP'): 12, ('ADV', 'PART'): 3, ('X', 'ADP'): 1, ('ADV', 'ADP'): 1}
+that: {('SCONJ', 'PRON'): 13, ('PRON', 'SCONJ'): 29, ('DET', 'PRON'): 7, ('SCONJ', 'DET'): 1, ('ADV', 'DET'): 3, ('DET', 'SCONJ'): 1}
+as: {('SCONJ', 'ADP'): 10, ('ADP', 'SCONJ'): 5, ('ADV', 'ADP'): 7, ('SCONJ', 'ADV'): 4, ('ADP', 'ADV'): 4}
+in: {('SCONJ', 'ADP'): 10, ('ADV', 'ADP'): 10, ('PROPN', 'ADP'): 2, ('ADP', 'ADV'): 3, ('SCONJ', 'ADV'): 1}
+out: {('ADP', 'ADV'): 14, ('ADV', 'ADP'): 6, ('PROPN', 'ADV'): 1, ('PROPN', 'NOUN'): 1, ('NOUN', 'ADP'): 1, ('PRON', 'ADP'): 1}
+up: {('ADP', 'ADV'): 9, ('ADV', 'ADP'): 7, ('ADJ', 'ADP'): 1, ('ADP', 'NOUN'): 3, ('NOUN', 'ADP'): 2, ('NOUN', 'ADV'): 1}
+have: {('VERB', 'AUX'): 16, ('AUX', 'VERB'): 6}
+for: {('SCONJ', 'ADP'): 21, ('CCONJ', 'ADP'): 1}
+like: {('ADJ', 'SCONJ'): 1, ('ADP', 'SCONJ'): 4, ('ADP', 'VERB'): 2, ('VERB', 'ADP'): 1, ('SCONJ', 'ADP'): 5, ('ADJ', 'ADP'): 2, ('SCONJ', 'VERB'): 3, ('INTJ', 'VERB'): 2}
+-: {('PUNCT', 'SYM'): 10, ('SYM', 'PUNCT'): 5, ('SYM', 'X'): 1, ('PUNCT', 'X'): 4}
+
+All of the most frequent incorrect tags until '-' are small, function words. I am not certain what all of the tag labels mean, so it is difficult to say for certain, but it looks like generally the incorrect tags are coming from other functional uses of the word. That is, 'that' is sometimes a pronoun, but others a determiner, still others, a subordinating conjunction.
+Because of this, the program is not terribly off, but missing some of the finer distinctions in highly variable words that share an orthographic form.
+It's worth noting that a native speaker might likewise mis categorize these.
+
+For '-', I do not know the intended distinction between symbol SYM and punctuation PUNCT, but it looks like a similar issue: an error of minor distinction, though the broader categorization is correct.

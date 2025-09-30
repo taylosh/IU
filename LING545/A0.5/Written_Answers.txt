@@ -1,0 +1,3 @@
+Generally, my re function performed pretty well, but the nltk function was able to catch things I had trouble with. For one, I couldn't get the tokenizer to treat clitics as a separate word, so didn't was not broken into did and n't like with nltk. I also noticed that my implementation of the .split() method trimmed some punctuation from the texts that the nltk package did not, specifically parenthesis and slahes. For the most part the sentences were tokenized the same, but I did spot at least one place where two sentences were not split in my re function.
+
+I didn't notice any issues, with the nltk parsing function, but it is very possible that I am overlooking something.
