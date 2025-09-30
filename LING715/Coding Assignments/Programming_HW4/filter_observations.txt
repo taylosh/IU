@@ -1,0 +1,17 @@
+
+    Filter Effects Analysis:
+    1. Low-Pass Filter (1000 Hz cutoff):
+       - Preserves the fundamental and lower harmonics
+       - Result sounds warmer but loses brightness
+       - Spectrum shows removal of frequencies above 1kHz
+    
+    2. High-Pass Filter (3000 Hz cutoff):
+       - Removes fundamental and lower harmonics
+       - Result sounds thin and airy with only high overtones
+       - Spectrum shows elimination of frequencies below 3kHz
+    
+    3. Band-Pass Filter (2000-6000 Hz):
+       - Isolates the mid-range harmonic content
+       - Result has a nasal, focused quality
+       - Spectrum shows passband between 2-6kHz with attenuation outside
+    
