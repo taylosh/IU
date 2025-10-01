@@ -1,0 +1,45 @@
+# Praat script for vowel formant extraction
+
+# Form to enter file paths
+form Select_files
+    text textgrid_file C:/Users/stayl/Desktop/TestAudio_aligned.textgrid
+    text sound_file C:/Users/stayl/Desktop/TestAudio.wav
+endform
+
+# Debugging: Print the variables to ensure they're captured
+writeInfoLine: "TextGrid file path: ", textgrid_file$
+writeInfoLine: "Sound file path: ", sound_file$
+
+# Read the TextGrid file
+Read from file: textgrid_file$
+grid = selected("TextGrid")
+
+# Read the Sound file
+Read from file: sound_file$
+sound = selected("Sound")
+
+# Proceed with formant analysis
+
+# Specify time range for formant analysis (example: 0.5 to 2.5 seconds)
+start_time = 0.5
+end_time = 2.5
+
+# Select a portion of the sound file (can be adjusted based on your needs)
+selected_sound = Extract part: start_time, end_time, "rectangular", 1, "yes"
+
+# Extract formants from the selected sound segment
+formants = To Formant (burg): 0.01, 5, 5500, 0.002, 50
+
+# Optionally, you can select specific formants (e.g., first three)
+formant_1 = Get formant: 1, start_time, end_time
+formant_2 = Get formant: 2, start_time, end_time
+formant_3 = Get formant: 3, start_time, end_time
+
+# Print the formant frequencies
+writeInfoLine: "Formant 1 frequency: ", formant_1
+writeInfoLine: "Formant 2 frequency: ", formant_2
+writeInfoLine: "Formant 3 frequency: ", formant_3
+
+# Proceed with analysis
+printline: "Formant analysis completed."
+
