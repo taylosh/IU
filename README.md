@@ -4,6 +4,7 @@ This repository contains course materials and projects from my studies at Indian
 
 ## Courses
 
+- [CSCI590 - C and UNIX Basics](./CSCI590/)
 - [DSCI590 - Data Science](./DSCI590/)
 - [LING545 - Corpus Linguistics](./LING545/)
 - [LING545_Prev - Corpus Linguistics (Previous Version)](./LING545_Prev/)
