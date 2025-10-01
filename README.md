@@ -4,9 +4,9 @@ This repository contains course materials and projects from my studies at Indian
 
 ## Courses
 
-- [DSCI590 - Data Science](./DSCI590/)
-- [LING545 - Corpus Linguistics](./LING545/)
-- [LING545_Prev - Corpus Linguistics (Previous Version)](./LING545_Prev/)
+- [DSCI590 - Introduction to Python Programming](./DSCI590/)
+- [LING545 - Computation and Linguistic Analysis](./LING545/)
+- [LING545_Prev - Computation and Linguistic Analysis (Previous Class)](./LING545_Prev/)
 - [LING635 - Applications of Speech Processing](./LING635/)
 - [LING715 - Fundamentals of Speech Processing](./LING715/)
 
