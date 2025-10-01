@@ -1,13 +1,19 @@
-# IU Course Materials
+# Indiana University (IU) Course Materials
 
-Repository for Indiana University course materials and projects.
+This repository contains course materials and projects from my studies at Indiana University.
 
-- [DSCI590 - INtroduction to Python Programming](./DSCI590/)
+## Courses
 
-- [LING545 - Computation and Linguistic Analysis](./LING545/)
-
-- [LING545_Prev - Computation and Linguistic Analysis (Initial Attempt)](./LING545_Prev/)
-
+- [DSCI590 - Data Science](./DSCI590/)
+- [LING545 - Corpus Linguistics](./LING545/)
+- [LING545_Prev - Corpus Linguistics (Previous Version)](./LING545_Prev/)
+- [LING635 - [Course Title]](./LING635/)
 - [LING715 - Fundamentals of Speech Processing](./LING715/)
 
-- [LING635 - [Course Title]](./LING635/)
+## Structure
+
+Each course is organized in its own directory with relevant materials, assignments, and projects.
+
+## About
+
+This repository serves as a portfolio of my academic work at Indiana University.
